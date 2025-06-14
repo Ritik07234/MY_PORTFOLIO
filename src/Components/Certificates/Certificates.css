@@ -1,0 +1,93 @@
+.certificates {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #FFD700; /* Gold */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  h3{
+    color: yellow;
+  }
+  /* Grid Layout */
+  .certificateGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Certificate Cards */
+  .certificateCard {
+    background: #1E1E1E; /* Dark Gray */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2); /* Gold Glow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .certificateCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.3); /* Cyan Glow */
+  }
+  
+  /* Certificate Icons */
+  .certificateIcon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .infosysIcon {
+    color: #00FFFF; /* Cyan */
+  }
+  
+  .courseraIcon {
+    color: #1E90FF; /* Electric Blue */
+  }
+  
+  /* Certificate List */
+  .certificateCard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .certificateCard li {
+    font-size: 1rem;
+    color: #D3D3D3; /* Light Gray */
+    margin-bottom: 8px;
+  }
+  
+  .viewCertificateBtn {
+    background-color: #4682B4; /* Steel Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .viewCertificateBtn:hover {
+    background-color: #1E90FF; /* Dodger Blue */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .viewCertificateBtn:focus {
+    outline: none;
+  }
+  
+  .viewCertificateBtn:active {
+    transform: scale(0.98); /* Button shrink effect on click */
+  }
+  

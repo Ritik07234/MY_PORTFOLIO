@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* Projects Section */
+.projects {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 50px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; /* Use Poppins for all text */
+}
+
+/* Title */
+.projects .title {
+  font-size: 2rem; /* Slightly smaller title */
+  color: #FFD700; /* Gold for the title */
+  text-transform: uppercase;
+  margin-bottom: 30px; /* Smaller margin */
+  letter-spacing: 2px;
+  font-family: 'Orbitron', sans-serif; /* Use Orbitron for title */
+}
+
+/* Projects Container */
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Reduced gap between items */
+}
+
+/* Project Item */
+.projectItem {
+  display: flex;
+  gap: 15px; /* Reduced gap */
+  align-items: center;
+  background: #1E1E1E; /* Dark Gray for contrast */
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(255, 215, 0, 0.2); /* Slightly smaller shadow */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px; /* Reduced padding */
+  width: 70%; /* Reduced width */
+  margin: 0 auto; /* Center align */
+}
+
+.projectItem.left {
+  flex-direction: row;
+}
+
+.projectItem.right {
+  flex-direction: row-reverse;
+}
+
+.projectItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 12px rgba(0, 255, 255, 0.3); /* Slightly smaller shadow on hover */
+}
+
+/* Project Image Container */
+.projectImageContainer {
+  flex: 1;
+  overflow: hidden;
+}
+
+.projectImage {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.projectItem:hover .projectImage {
+  transform: scale(1.1);
+}
+
+/* Project Content */
+.projectContent {
+  flex: 2;
+  text-align: left;
+}
+
+.projectContent h3 {
+  font-size: 1.5rem; /* Slightly smaller font size */
+  color: #00FFFF; /* Cyan for headings */
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif; /* Use Orbitron for item headings */
+}
+
+.projectContent p {
+  font-size: 1rem; /* Slightly smaller font size */
+  color: #D3D3D3; /* Light gray for soft contrast */
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif; /* Use Poppins for text */
+}
+
+/* GitHub Link */
+.githubLink {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Reduced margin */
+  font-size: 1rem; /* Slightly smaller font size */
+  color: #FFD700; /* Gold color for GitHub link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.githubIcon {
+  margin-right: 5px;
+}
+
+.githubLink:hover {
+  color: #00FFFF; /* Cyan hover effect for the GitHub link */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .projects .title {
+    font-size: 1.6rem; /* Adjusted font size */
+  }
+
+  .projectContent h3 {
+    font-size: 1.4rem; /* Adjusted font size */
+  }
+
+  .projectContent p {
+    font-size: 0.9rem; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    gap: 15px; /* Adjusted gap */
+  }
+
+  .projectItem {
+    flex-direction: column;
+  }
+
+  .projectImageContainer,
+  .projectContent {
+    width: 100%;
+  }
+
+  .projects {
+    padding: 30px 15px; /* Adjusted padding */
+  }
+
+  .projects .title {
+    font-size: 1.4rem; /* Adjusted font size */
+  }
+
+  .projectContent h3 {
+    font-size: 1.3rem; /* Adjusted font size */
+  }
+
+  .projectContent p {
+    font-size: 0.85rem; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 20px 10px; /* Adjusted padding */
+  }
+
+  .projects .title {
+    font-size: 1.2rem; /* Adjusted font size */
+  }
+
+  .projectContent h3 {
+    font-size: 1.1rem; /* Adjusted font size */
+  }
+
+  .projectContent p {
+    font-size: 0.8rem; /* Adjusted font size */
+  }
+}

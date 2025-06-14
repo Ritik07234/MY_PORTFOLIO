@@ -1,0 +1,122 @@
+.contact {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #FFD700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+/* Split Layout */
+.introText {
+  font-size: 1.1rem;
+  color: #48a9ea;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+.contactSplit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Left - Info */
+.contactInfo {
+  background: #1E1E1E;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+  flex: 1 1 300px;
+  text-align: left;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contactIcon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.emailIcon {
+  color: #FFD700;
+}
+
+.phoneIcon {
+  color: #00FFFF;
+}
+
+.contactItem a {
+  color: #D3D3D3;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.contactItem a:hover {
+  color: #FF69B4;
+}
+
+/* Right - Form */
+.contactForm {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #1E1E1E;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.05);
+  outline: none;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #888;
+}
+
+.contactForm button {
+  padding: 12px;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #00FFFF;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactSplit {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

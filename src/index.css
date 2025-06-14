@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;  /* Prevents scrolling on the X-axis */
+  margin: 0;            /* Removes any default margin */
+  padding: 0;           /* Removes any default padding */
+  background-color: black;
+
+}
+
+
+/* Optional: Ensure that the HTML element covers full width */
+html {
+  width: 100%;
+  overflow-x: hidden;  /* Prevents horizontal overflow on the HTML element */
+}
