@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { SiCoursera } from "react-icons/si";
-import { SiInfosys } from "react-icons/si";
+import { SiUdemy } from "react-icons/si";
 import "./Certificates.css";
 
 const Certificates = () => {
@@ -17,30 +16,28 @@ const Certificates = () => {
       <h2 className="title">Certificates</h2>
       
       <div className="certificateGrid">
-        {/* Infosys Springboard Certifications */}
         <div className="certificateCard">
-          <SiInfosys className="certificateIcon infosysIcon" />
-          <h3>Infosys Springboard</h3>
+          <SiUdemy className="certificateIcon infosysIcon" />
+          <h3>Udemy Web Development Course</h3>
           <br />
           <ul>
-            <li>Python Foundation</li>
-            <li>TechA Web Development using HTML & CSS</li>
-            <li>TechA Salesforce</li>
+            <li>HTML5, CSS3, and JavaScript</li>
+            <li>Web Development using HTML & CSS</li>
           </ul>
-          <a href="path/to/infosys-certificate.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.udemy.com/certificate/UC-f01575f0-de26-4286-b1a4-a91c2ee3c502/" target="_blank" rel="noopener noreferrer">
             <button className="viewCertificateBtn">View Certificate</button>
           </a>
         </div>
 
         {/* Coursera Certification */}
         <div className="certificateCard">
-          <SiCoursera className="certificateIcon courseraIcon" />
-          <h3>Coursera</h3>
+          <SiUdemy className="certificateIcon courseraIcon" />
+          <h3>Udemy Java Course</h3>
           <br />
           <ul>
-            <li>HTML, CSS, and JavaScript for Web Developers</li>
+            <li>Learn Java Programming</li>
           </ul>
-          <a href="path/to/coursera-certificate.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.udemy.com/certificate/UC-0c36229e-8bbc-4198-b4ea-538f0b5f3549/" target="_blank" rel="noopener noreferrer">
             <button className="viewCertificateBtn">View Certificate</button>
           </a>
         </div>

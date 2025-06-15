@@ -3,7 +3,6 @@ import { FaPython,FaReact , FaProjectDiagram,FaJava, FaNodeJs,FaHtml5, FaCss3Alt
 import{ SiExpress ,SiTailwindcss} from 'react-icons/si';
 const Skills = () => {
   const programmingLanguages = [
-    { name: "Python", icon: <FaPython />, description: "Experienced in Python programming for data analysis, web development, and automation." },
     { name: "C", icon: <FaCogs />, description: "Experienced in C programming for system-level development and algorithms." },
     { name: "C++", icon: <FaCodeBranch />, description: "Skilled in C++ for object-oriented programming and software development." },
     { name: "Java", icon: <FaJava />, description: "Proficient in Java for object-oriented programming and software development." },

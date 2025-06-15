@@ -29,7 +29,6 @@ const Header = () => {
       {/* Resume & Contact Buttons */}
       <div className="buttons">
         <a href="/src/assets/resume.pdf" download className="resumeButton"> Resume</a>
-        <a href="ritiksingh07234@gmail.com" className="contactButton">Contact Me</a>
       </div>
     </header>
   );

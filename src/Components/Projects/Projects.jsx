@@ -1,28 +1,22 @@
 import "./Projects.css";
 import { MdLiveTv } from "react-icons/md";
-import project1Image from "../../assets/ud.png";
-import project2Image from "../../assets/project2.jpeg";
-import project3Image from "../../assets/project3.jpg";
+import project1Image from "../../assets/project1.jpeg";
+import project2Image from "../../assets/project2.png";
+import project3Image from "../../assets/ud.png";
 
 const Projects = () => {
   const projects = [
     {
       title: "Animation + Smooth Scroll using Gsap",
       description: "An interactive web project featuring smooth scroll animations using GSAP and Locomotive Scroll for enhanced user experience.",
-      image: project2Image,
+      image: project1Image,
       github: "https://boisterous-gelato-e8d8de.netlify.app/"
     },
     {
-      title: "Streaming UI Project",
-      description: "I developed a responsive and interactive OTT web platform for video streaming using React.js, featuring dynamic content browsing with category filters, featured sections, and media carousels. The project included reusable UI components, integrated video players, and simulated real-world functionality with mock data, all while ensuring a modern, user-friendly interface optimized for performance across devices.",
-      image: project1Image,
-      github: "https://udhayam-csbs.vercel.app/"
-    },
-    {
-      title: "EduTrack Learning Platform",
-      description: "I developed a full-stack educational platform that enables interactive learning for students and educators, with secure user authentication, course creation, and real-time progress tracking. The frontend was built using React.js, while the backend utilized a scalable RESTful API with Express.js and MongoDB. The platform includes structured modules, quizzes, and dynamic content rendering to ensure a smooth and engaging user experience.",
-      image: project3Image,
-      github: "https://agriculture-machines-rental.onrender.com/"
+      title: "# React E-Commerce App",
+      description: "I developed a modern and responsive E-Commerce web application using Core React.js and Tailwind CSS.  It features dynamic product listings, cart management, and a smooth checkout experience using REST APIs.  The site is optimized for all screen sizes and ensures a clean, fast user experience.  It also includes product filtering, search functionality, and minimal UI design.",
+      image: project2Image,
+      github: "https://sage-belekoy-4bed69.netlify.app/"
     },
   ];
 
