@@ -3,33 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>MY_PORTFOLIO – Ritik Kumar Singh</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #fdfdfd;
-      color: #333;
-      padding: 30px;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    ul {
-      margin-top: 10px;
-      padding-left: 20px;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 10px;
-      border-left: 4px solid #ccc;
-      overflow-x: auto;
-    }
-    strong {
-      color: #000;
-    }
-  </style>
-</head>
-<body>
 
   <h1>🚀 Ritik Kumar Singh – Developer Portfolio</h1>
   <p>
