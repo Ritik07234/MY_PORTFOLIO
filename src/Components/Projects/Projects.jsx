@@ -16,7 +16,7 @@ const Projects = () => {
       title: "# React E-Commerce App",
       description: "I developed a modern and responsive E-Commerce web application using Core React.js and Tailwind CSS.  It features dynamic product listings, cart management, and a smooth checkout experience using REST APIs.  The site is optimized for all screen sizes and ensures a clean, fast user experience.  It also includes product filtering, search functionality, and minimal UI design.",
       image: project2Image,
-      github: "https://sage-belekoy-4bed69.netlify.app/"
+      github: "https://e-commerce-tau-seven-73.vercel.app/"
     },
   ];
 
