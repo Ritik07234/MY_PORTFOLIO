@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
 const Contact = () => {
@@ -10,6 +11,30 @@ const Contact = () => {
       setFadeIn(true);
     }, 200);
   }, []);
+
+  const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "service_wa98fh7",       // ✅ Tumhara Service ID
+      "template_tec5cpp",      // ✅ Tumhara Template ID
+      e.target,
+      "HHpcMatoO5qGbOZcB"      // ✅ Tumhara Public (User) Key
+    )
+    .then(
+      (result) => {
+        alert("Message sent successfully ✅");
+      },
+      (error) => {
+        alert("Failed to send ❌");
+        console.error(error.text);
+      }
+    );
+
+  e.target.reset(); // Clear form
+};
+
 
   return (
     <section id="contact" className={`contact ${fadeIn ? "fade-in" : ""}`}>
@@ -38,12 +63,13 @@ const Contact = () => {
         </div>
 
         {/* Right: Contact Form */}
-        <form className="contactForm" onSubmit={(e) => e.preventDefault()}>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea placeholder="Your Message" rows="5" required></textarea>
+        <form className="contactForm" onSubmit={sendEmail}>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
           <button type="submit">Send Message</button>
         </form>
+
       </div>
     </section>
   );

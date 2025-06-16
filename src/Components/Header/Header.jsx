@@ -28,7 +28,7 @@ const Header = () => {
 
       {/* Resume & Contact Buttons */}
       <div className="buttons">
-        <a href="/src/assets/resume.pdf" download className="resumeButton"> Resume</a>
+        <a href="https://drive.google.com/file/d/1Jw4jHNJ0g8ebEhgSxai4J2qfVJhksuqx/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="resumeButton"> Resume</a>
       </div>
     </header>
   );
