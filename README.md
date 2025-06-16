@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>MY_PORTFOLIO – Ritik Kumar Singh</title>
 
   <h1>🚀 Ritik Kumar Singh – Developer Portfolio</h1>
   <p>
