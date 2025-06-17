@@ -37,8 +37,8 @@
 
   <h2>🚀 Getting Started</h2>
   <h3>🔽 Clone and Install</h3>
-  <pre><code>git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+  <pre><code>git clone https://github.com/Ritik07234/MY_PORTFOLIO.git
+cd MY_PORTFOLIO
 npm install
 npm run dev</code></pre>
 
