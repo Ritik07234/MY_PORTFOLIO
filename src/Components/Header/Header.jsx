@@ -5,7 +5,7 @@ import profilePic from "../../assets/ritik.jpg";
 
 const Header = () => {
   return (
-    <header id="header" className="header">
+    <header id="home" className="header">
       {/* Profile Picture */}
       <div className="profileContainer">
         <img src={profilePic} alt="Kamesh P" className="profilePic" />
