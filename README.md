@@ -17,7 +17,6 @@
   <ul>
     <li>⚛️ <strong>React.js</strong> – Frontend framework for dynamic UI</li>
     <li>🎨 <strong>HTML5 & CSS3</strong> – Semantic structure and styling</li>
-    <li>🅱️ <strong>Bootstrap</strong> – Mobile-first layout and grid system</li>
     <li>💡 <strong>JavaScript</strong> – Logic and interactivity</li>
     <li>📩 <strong>EmailJS</strong> – Secure and real-time email form integration</li>
     <li>✨ <strong>CSS Transitions & Animations</strong> – For enhanced user experience</li>
